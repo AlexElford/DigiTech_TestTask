@@ -1,0 +1,47 @@
+# Unity folders and files
+[Aa]ssets/AssetStoreTools*
+[Bb]uild/
+[Ii]nstall/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
+[Ll]ogs/
+
+[Uu]nityGenerated/
+.vs/
+bin/
+
+# Crash report
+sysinfo.txt
+
+# Unity meta files (keep .meta files in Assets/, but ignore temp ones)
+*.pidb.meta
+
+# Ignore everything in Packages EXCEPT manifest.json and packages-lock.json
+[Pp]ackages/*
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+
+# Optional: if you have local packages you want to version, un-ignore them like this:
+# !/[Pp]ackages/com.yourcompany.yourpackage/
+
+# VS/MD solution and project files
+[Ee]xportedObj/
+*.booproj
+*.csproj
+*.sln
+*.suo
+*.svd
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+
+# OS generated
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
